@@ -1,0 +1,3 @@
+ul li:hover ul.dropdown-menu{
+    display: block;	/* Display the dropdown */
+}
