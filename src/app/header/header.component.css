@@ -1,8 +1,12 @@
 ul li:hover ul.dropdown-menu{
     display: block;	/* Display the dropdown */
 }
-.desktop-container {
+/* .desktop-container {
     -webkit-box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    background-color: #fff;
+} */
+.navbar{
+    box-shadow: 0px 12px 12px 0 rgba(0,0,0,.05);
     background-color: #fff;
 }
