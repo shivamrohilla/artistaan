@@ -8,13 +8,15 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { UspComponent } from './usp/usp.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CarouselComponent,
-    UspComponent
+    UspComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
