@@ -1,7 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { OnInit } from "@angular/core";
-import { HttpService } from "../services/httpservices.service";
 
 
 
