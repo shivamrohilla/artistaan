@@ -14,15 +14,7 @@ export class HttpService{
     get(url:string){
 
         
-        this.http.get(url).subscribe((responseData) =>{
-
-            this.response =responseData;
-            console.log(responseData);
-
-        }
-        )
-
-        return this.response
+        return this.http.get(url)
     }
 
 

@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { OnInit } from "@angular/core";
+import { HttpService } from "src/app/services/httpservices.service";
 
 
 
@@ -11,7 +12,7 @@ import { OnInit } from "@angular/core";
 })
 export class ProductListComponent implements OnInit {
 
-    constructor(private http: HttpClient){
+    constructor(private http: HttpService){
 
     }
     images = []
@@ -31,21 +32,5 @@ export class ProductListComponent implements OnInit {
 
 
     }
-
-    getBorder(event : any){
-
-        
-        console.log(event.target);
-    }
-    removeBorder(event : any){
-
-       
-
-        console.log(event.target);
-    }
-
-
-    
-
 
 }
