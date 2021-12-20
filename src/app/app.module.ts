@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ProductViewComponent } from './product-view/product-view.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { HttpService } from './services/httpservices.service';
 
@@ -12,7 +11,7 @@ import { HttpService } from './services/httpservices.service';
   declarations: [
     AppComponent,
     HeaderComponent,
-    ProductViewComponent
+    
   ],
   imports: [
     BrowserModule,
