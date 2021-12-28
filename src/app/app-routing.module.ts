@@ -5,21 +5,24 @@ import { HomeComponent } from './modules/home-module/home-component/home.compone
 const routes: Routes = [
 
   {
-    path:"" , loadChildren : ()=>import('./modules/home-module/home-module.module')
-    .then(mod=>mod.HomeModule)
+    path: "", loadChildren: () => import('./modules/home-module/home-module.module')
+      .then(mod => mod.HomeModule)
   }
-,
+  ,
   {
-    path:"home" , loadChildren : ()=>import('./modules/home-module/home-module.module')
-    .then(mod=>mod.HomeModule)
+    path: "home", loadChildren: () => import('./modules/home-module/home-module.module')
+      .then(mod => mod.HomeModule)
   },
 
   {
-    path:"products" , loadChildren : ()=>import('./modules/product-module/product-module.module')
-    .then(mod=>mod.ProductModuleModule)
+    path: "products", loadChildren: () => import('./modules/product-module/product-module.module')
+      .then(mod => mod.ProductModuleModule)
+  },
+  {
+    path: "login", loadChildren: () => import('./modules/login-module/login-module.module')
+      .then(mod => mod.LoginModuleModule)
   }
 
-  
 ];
 
 @NgModule({
